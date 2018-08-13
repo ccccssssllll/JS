@@ -1,0 +1,15 @@
+版本还原:
+    1. 查看版本;
+    git reflog 版本查看;
+
+    十六进制版本号( 哈希值版本号 ) 唯一版本号 
+    1ec15b1 (HEAD -> master) HEAD@{0}: commit: 第一次把工作区的内容放入本地仓库之中
+    commit: 代表注释;
+
+    2. 还原版本;
+ 
+    git reset --hard 版本号;
+    
+    HEAD is now at 版本号 第一次把工作区的内容放入本地仓库之中
+
+

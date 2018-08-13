@@ -1,0 +1,38 @@
+github 是个啥? gitlab;
+分布式版本管理系统; 
+
+版本管理系统:
+    1. 不用版本管理系统;
+    2. 错误使用版本管理系统;
+
+github使用; 目标 让代码接受版本管理, 把代码上传到线上github仓库;
+
+    1.配置github; 告诉github你是谁; 只需要配置一次;
+
+    git config --global user.name "huaizhiY"
+    git config --global user.email "931673916@qq.com"
+
+    2.初始化github; 原则: 一个项目只需要初始化一个github就可以了; (仓库不花钱!!!!);
+    git init;
+
+    初始化       空    git    仓库    在  路径上;
+    Initialized empty Git repository in E:/phpnow/htdocs/1802/0812+1/github/.git/
+
+    在路径上初始化了空git仓库
+
+    判定是否成功:
+
+    $ ls -a
+
+    ./  ../  .git/ 有.git 的存在;
+
+
+把文件放入本地仓库;
+
+    1. git add 文件名; 放入 索引区;
+
+    2. git commit -m "注释" 
+
+    [master (root-commit) 4342739] 第一次把工作区的内容放入本地仓库之中
+        1 file changed, 27 insertions(+)
+        create mode 100644
